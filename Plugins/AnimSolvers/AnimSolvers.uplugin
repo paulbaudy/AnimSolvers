@@ -1,0 +1,34 @@
+{
+	"FileVersion": 1,
+	"Version": 0,
+	"VersionName": "1",
+	"FriendlyName": "Animation Solvers",
+	"Description": "Custom implementation of animation solvers",
+	"Category": "Animation",
+	"CreatedBy": "Paul Baudy",
+	"CreatedByURL": "https://paulbaudy.github.io/",
+	"DocsURL": "https://paulbaudy.github.io/",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AnimSolversEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux"
+			]
+		},
+		{
+			"Name": "AnimSolversRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux"
+			]
+		}
+	]
+}
