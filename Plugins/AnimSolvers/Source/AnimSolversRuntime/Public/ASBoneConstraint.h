@@ -9,7 +9,7 @@ struct FASBoneData;
 DECLARE_LOG_CATEGORY_EXTERN(LogASConstraint, Log, All);
 
 /**
-*   Base abstract class used to define a bone constraint that the solver should fulfil during computation.
+*   Base abstract class used to define a bone constraint that the solver should fulfill during computation.
 *   Derive from this class in order to apply a new specific mathematical constraint
 */
 UCLASS(BlueprintType, Blueprintable, EditInlineNew)

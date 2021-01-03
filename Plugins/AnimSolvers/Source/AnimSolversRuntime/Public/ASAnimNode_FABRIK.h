@@ -59,7 +59,7 @@ namespace FABRIKSolver
 }
 
 /**
-*	Skeletal controller used to implements the runtime logic of the FABRIK Anim Node
+*	Skeletal controller used to implement the runtime logic of the FABRIK Anim Node
 */
 USTRUCT(BlueprintInternalUseOnly)
 struct ANIMSOLVERSRUNTIME_API FASAnimNode_FABRIK : public FAnimNode_SkeletalControlBase

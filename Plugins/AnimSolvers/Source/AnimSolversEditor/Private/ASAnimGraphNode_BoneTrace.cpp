@@ -4,31 +4,31 @@
 
 #define LOCTEXT_NAMESPACE "IKSolverNodes"
 
-UAnimGraphNode_BoneTrace::UAnimGraphNode_BoneTrace(const FObjectInitializer& ObjectInitializer)
+UASAnimGraphNode_BoneTrace::UASAnimGraphNode_BoneTrace(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {}
 
-const FAnimNode_SkeletalControlBase* UAnimGraphNode_BoneTrace::GetNode() const
+const FAnimNode_SkeletalControlBase* UASAnimGraphNode_BoneTrace::GetNode() const
 {
 	return &Node;
 }
 
-FLinearColor UAnimGraphNode_BoneTrace::GetNodeTitleColor() const
+FLinearColor UASAnimGraphNode_BoneTrace::GetNodeTitleColor() const
 {
 	return FLinearColor::Yellow;
 }
 
-FString UAnimGraphNode_BoneTrace::GetNodeCategory() const
+FString UASAnimGraphNode_BoneTrace::GetNodeCategory() const
 {
 	return TEXT("IKSolver");
 }
 
-FText UAnimGraphNode_BoneTrace::GetNodeTitle(ENodeTitleType::Type TitleType) const
+FText UASAnimGraphNode_BoneTrace::GetNodeTitle(ENodeTitleType::Type TitleType) const
 {
 	return LOCTEXT("Bone Trace", "Bone Trace");
 }
 
-FText UAnimGraphNode_BoneTrace::GetControllerDescription() const
+FText UASAnimGraphNode_BoneTrace::GetControllerDescription() const
 {
 	return LOCTEXT("Bone Trace", "Bone trace");
 }

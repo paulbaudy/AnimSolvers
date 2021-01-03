@@ -63,6 +63,6 @@ void UIKSBoneConstraint_PlanarRotation::Apply(FTransform& InBoneTransform, int32
 	const float Length = InBoneData[Index].Length;
 	BoneOnPlane *= Length;
 
-	//@todo
+	// @todo finish up this constraint
 	//InBoneTransform.SetTranslation()
 }

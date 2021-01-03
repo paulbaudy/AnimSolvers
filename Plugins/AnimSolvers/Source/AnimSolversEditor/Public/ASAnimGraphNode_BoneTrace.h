@@ -14,10 +14,10 @@
 #include "ASAnimGraphNode_BoneTrace.generated.h"
 
 /**
- * 
+ * Custom Editor graph node for our Bone trace controller
  */
 UCLASS(MinimalAPI)
-class UAnimGraphNode_BoneTrace : public UAnimGraphNode_SkeletalControlBase
+class UASAnimGraphNode_BoneTrace : public UAnimGraphNode_SkeletalControlBase
 {
 	GENERATED_UCLASS_BODY()
 public:
