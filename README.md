@@ -1,5 +1,5 @@
 # AnimSolvers
-This is a plugin for Unreal Engine which aims to implement some of the most famous IK solvers.
+This is a plugin for Unreal Engine which aims to implement IK solvers.
 The idea here is to implement some of the most popular inverse kinematics solvers while adding some new features, such as constraints.
 
 ## List of solvers:
